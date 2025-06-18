@@ -29,7 +29,7 @@ public class Telefono {
 
     // Metodo per stampare dati SIM
     public void stampaDati(){
-        System.out.println("Numero di telefono: " + numTelefono);
+        System.out.println("Numero di telefono: " + numTelefono + ". Credito residuo: " + credito);
         System.out.println("Ultime chiamate: " + Arrays.toString(lastCalls) );
 
     }

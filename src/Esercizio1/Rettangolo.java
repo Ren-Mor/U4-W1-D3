@@ -3,8 +3,8 @@ package Esercizio1;
 public class Rettangolo {
 
     // Dichiaro attributi privati
-    private int altezza;
-    private int base;
+    private int  altezza;
+    private int  base;
 
     // Scrivo il costruttore
     public Rettangolo(int altezza, int base) {
@@ -48,9 +48,9 @@ public class Rettangolo {
 
     // Metodo per stampare due rettangoli con somma di area e perimetro
     public static void stampaDueRettangoli(Rettangolo r1, Rettangolo r2){
-        System.out.println("Rettangolo uno: ");
+        System.out.println("Rettangolo uno:");
         stampaRettangolo(r1);
-        System.out.println("Rettangolo due: ");
+        System.out.println("Rettangolo due:");
         stampaRettangolo(r2);
 
         int sommaAree = r1.calcoloArea() + r2.calcoloArea();
